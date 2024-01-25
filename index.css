@@ -1,10 +1,31 @@
 /* External CSS */
+body {
+    background-color: black;
+}
+
 h1 {
-    color: red;
-    background-color: green;
-    margin: auto 330px;
-    padding: 10px;
+    color: white;
+    margin: -22px;
+    padding: 40px;
     text-align: center;
+}
+
+h2 {
+    margin: auto 2px;
+    padding: 5px;
+    text-align: center;
+}
+
+p {
+    margin: auto 5px;
+    padding: 5px;
+    color: whitesmoke;
+}
+
+th {
+    padding: 20px;
+    border: 2px solid white;
+    color: yellow;
 }
 
 #top {
@@ -13,4 +34,9 @@ h1 {
 
 #bottom {
     margin-top: 20px;
+}
+
+#favcolor {
+    color: white;
+    background-color: blue;
 }
