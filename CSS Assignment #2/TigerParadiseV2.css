@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(255, 198, 93);
+}
+
+table {
+    table-layout: fixed;
+    width: 850px;
+    border: 2px solid black;
+}
+
+thead {
+    background-color: rgb(184, 90, 56);
+    text-align: left;
+}
+
+th {
+    background-color: rgb(184, 90, 56);
+    text-align: left;
+    border: 1px solid black;
+}
+
+td {
+    text-align: center;
+    border: 1px solid black;
+}
+
+#weight {
+    background-color: orange;
+}
+
+#height {
+    background-color: orangered;
+}
+
+#habitat {
+    background-color: orange;
+}
+
+#population {
+    background-color: orangered;
+}
+
+#status {
+    background-color: orange;
+}
+
+#fact {
+    background-color: orangered;
+}
+
+ul {
+  background-color: rgb(255, 198, 93);
+  border: 1px solid black;
+  border-radius: 5px;
+  width: fit-content;
+  margin: 15px;
+  padding-left: 0px;
+}
+
+li {
+  padding-right: 10px;
+}
+
+img {
+  border: 3px solid black;
+}
+
+article {
+  max-width: 70%;
+}
