@@ -1,40 +1,37 @@
 <!DOCTYPE html>
-<html lang="en"> <!--Sets pages default language to English-->
+<html lang="en-CA"> <!--Sets pages default language to English-->
 
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="./TigerParadiseV2.css" />
-    <title>Tiger Paradise</title> <!--Title of the page tab-->
-
-    <!--Inline Styling and CSS-->
-    <style>
-    </style>
+    <title>Tiger Paradise V2</title> <!--Title of the page tab-->
 </head>
 
 <body>
     <header>
-        <nav>
+        <nav id="page-nav">
             <ul> <!--list tag, all list items below are displayed inline-block (horizontally instead of vertical, and no underline)-->
-                <li style="display:inline-block;"><a style="text-decoration:none" href ="./index.html">&nbsp;&nbsp;Main Page</a></li> <!--Line item hyperlink for Main Page-->
-                <li style="display:inline-block;"><a style="text-decoration:none" href ="./TigerParadise.html">Tigers Paradise</a></li> <!--Line item hyperlink for My Page-->
-                <li style="display:inline-block;"><a style="text-decoration:none" href ="./KMPage.html">Bananas</a></li> <!--Line item hyperlink for Groupmates Page-->
-                <li style="display:inline-block;"><a style="text-decoration:none" href ="./blackdahlia.html">Black Dahlia</a></li> <!--Line item hyperlink for Groupmates Page-->
-                <li style="display:inline-block;"><a style="text-decoration:none" href ="./minecraft-datapacks.html">Minecraft Datapacks</a></li> <!--Line item hyperlink for Groupmates Page-->
-                <li style="display:inline-block;"><a style="text-decoration:none" href ="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley&autoplay=1">Don't Click</a></li>
+                <li style="display:inline-block;"><h2 id="Title">Tiger Paradise</h2> <!--Header 'title'--></li>
+                <li><a href ="./index.html">&nbsp;&nbsp;Main Page</a></li> <!--Line item hyperlink for Main Page-->
+                <li><a href ="./TigerParadise.html">Tigers Paradise</a></li> <!--Line item hyperlink for My Page-->
+                <li><a href ="./KMPage.html">Bananas</a></li> <!--Line item hyperlink for Groupmates Page-->
+                <li><a href ="./blackdahlia.html">Black Dahlia</a></li> <!--Line item hyperlink for Groupmates Page-->
+                <li><a href ="./minecraft-datapacks.html">Minecraft Datapacks</a></li> <!--Line item hyperlink for Groupmates Page-->
+                <li><a href ="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley&autoplay=1">Don't Click</a></li>
             </ul>
             <ul> <!--2nd list tag, all list items below are displayed inline-block (horizontally instead of vertical, and no underline)-->
-                <li style="display:inline-block;"><a style="text-decoration:none" href ="#Bengal">&nbsp;&nbsp;Bengal Tiger</a></li> <!--Line item hyperlink for Bengal section using ID-->
-                <li style="display:inline-block;"><a style="text-decoration:none" href ="#Siberian">Siberian Tiger</a></li> <!--Line item hyperlink for Siberian section using ID-->
-                <li style="display:inline-block;"><a style="text-decoration:none" href ="#Sumatran">Sumatran Tiger</a></li> <!--Line item hyperlink for Sumatran section using ID-->
-                <li style="display:inline-block;"><a style="text-decoration:none" href ="#Indochinese">Indochinese Tiger</a></li> <!--Line item hyperlink for Indochinese section using ID-->
-                <li style="display:inline-block;"><a style="text-decoration:none" href ="#Malayan">Malayan Tiger</a></li> <!--Line item hyperlink for Malayan section using ID-->
-                <li style="display:inline-block;"><a style="text-decoration:none" href ="#SouthChina">South China Tiger</a></li> <!--Line item hyperlink for South China section using ID-->
-                <li style="display:inline-block;"><a style="text-decoration:none" href ="#Table">Tiger Data Table</a></li> <!--Line item hyperlink for data table section using ID-->   
+                <li><a href ="#Bengal">&nbsp;&nbsp;Bengal Tiger</a></li> <!--Line item hyperlink for Bengal section using ID-->
+                <li><a href ="#Siberian">Siberian Tiger</a></li> <!--Line item hyperlink for Siberian section using ID-->
+                <li><a href ="#Sumatran">Sumatran Tiger</a></li> <!--Line item hyperlink for Sumatran section using ID-->
+                <li><a href ="#Indochinese">Indochinese Tiger</a></li> <!--Line item hyperlink for Indochinese section using ID-->
+                <li><a href ="#Malayan">Malayan Tiger</a></li> <!--Line item hyperlink for Malayan section using ID-->
+                <li><a href ="#SouthChina">South China Tiger</a></li> <!--Line item hyperlink for South China section using ID-->
+                <li><a href ="#Table">Tiger Data Table</a></li> <!--Line item hyperlink for data table section using ID-->   
             </ul>
         </nav>
 
         <hr> <!--Horizontal Line-->
-        <h1><u>Tiger Paradise &#128507;&#128507;&#128507;</u></h1> <!--Header 'title', &#128507 creates mountain emojis alongside title-->
+      
         <article><h3><b>
           Tigers are some of the most majestic (and largest!) big cats found around the world, often seen as the most beautiful big cat, the tiger is
           also one of the most endangered cats in the wild, with some subspecies of tiger already being completely killed off by human poaching
@@ -110,7 +107,7 @@
           </caption>
           <thead id="Table"> <!--Start of table element, with id=Table-->
             <tr>
-              <td>&nbsp;</td> <!--Creates an empty cell in the top left of the table-->
+              <td class="empty">&nbsp;</td> <!--Creates an empty cell in the top left of the table-->
               <!--Table headers (columns)-->
               <th>Bengal&nbsp;&nbsp;</th>
               <th>Siberian&nbsp;&nbsp;</th>
@@ -122,7 +119,7 @@
           </thead>
           
           <tbody>
-            <tr id="weight"> <!--Creates a row with id weight-->
+            <tr class="odd"> <!--Creates a row with id weight-->
               <!--Row cells-->
               <th>Weight (lbs)(Adult)</th>
               <td>440-570 (Male) 240-400 (Female)</td>
@@ -132,7 +129,7 @@
               <td>220-308 (Male) 165-245 (Female)</td>
               <td>287-386 (Male) 220-254 (Female)</td>
             </tr>
-            <tr id="height"> <!--Creates a row with id height-->
+            <tr class="even"> <!--Creates a row with id height-->
               <!--Row cells-->
               <th>Height (cm)(Shoulders)</th>
               <td>90-110</td>
@@ -142,7 +139,7 @@
               <td>~24-45</td>
               <td>~80-95</td>
             </tr>
-            <tr id="habitat"> <!--Creates a row with id habitat-->
+            <tr class="odd"> <!--Creates a row with id habitat-->
               <!--Row cells-->
               <th>Habitat</th>
               <td>Humid Forests</td>
@@ -152,7 +149,7 @@
               <td>Malaysian Forests</td>
               <td>Temperate Forests</td>
             </tr>
-            <tr id="population"> <!--Creates a row with id population-->
+            <tr class="even"> <!--Creates a row with id population-->
               <!--Row cells-->
               <th>Population (Within Wild)</th>
               <td>~2603-3346</td>
@@ -162,7 +159,7 @@
               <td>~200</td>
               <td>~0 (100 in captivity)</td>
             </tr>
-            <tr id="status"> <!--Creates a row with id status-->
+            <tr class="odd"> <!--Creates a row with id status-->
               <!--Row cells-->
               <th>Status</th>
               <td>Endangered - Pop. Decreasing</td>
@@ -172,7 +169,7 @@
               <td>Critically Endangered - Pop. Decreasing</td>
               <td>Critically Endangered / Extinct In Wild</td>
             </tr>
-            <tr id="fact"> <!--Creates a row with id fact-->
+            <tr class="even"> <!--Creates a row with id fact-->
               <!--Row cells-->
               <th>Fact</th>
               <td>White Bengals (albino) are a rare phenomenon</td>
@@ -187,8 +184,9 @@
         <br> <!--Line Break (Creates extra gap between elements)-->
         <hr> <!--Horizontal line spanning the page-->
         <!--h5 text with white-space style to move some text to the next line without a break element-->
-        <div style="white-space: pre"><h5>All information found on respective Tigers Wiki Page(s)
-David Blackwell Webpage &#169;</h5></div> <!--&#169 creates copyright symbol-->
+        <footer>
+          <p>All information found on respective Tigers Wiki Page(s)</p>
+          <p>Copyright 2024 &#169; David Blackwell Webpage</p></footer> <!--&#169 creates copyright symbol-->
     </main>
 </body>
 
