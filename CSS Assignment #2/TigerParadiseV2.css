@@ -24,6 +24,8 @@ max-width: 70%;
 img {
 border: 3px solid black;
 float: left;
+margin-right: 5px;
+margin-bottom: 5px;
 }
 
 table {
@@ -130,15 +132,8 @@ footer p {
     display: block;
 }
     
-/* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
     background-color: black;
-}
-    
-/* Style page content */
-.main {
-    margin-left: 160px; /* Same as the width of the sidebar */
-    padding: 0px 10px;
 }
 
 @media screen and (max-width: 960px) {
