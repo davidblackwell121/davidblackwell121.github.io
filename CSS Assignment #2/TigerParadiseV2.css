@@ -29,7 +29,7 @@ max-width: 65%;
     margin-top: -10px;
 }
 
-img {
+.picture {
 border: 3px solid black;
 float: left;
 margin-right: 8px;
@@ -148,13 +148,13 @@ footer p {
     color: #f8f398;
     display: block;
 }
-    
+  
 .sidenav a:hover {
     background-color: black;
 }
 
 @media screen and (max-width: 960px) {
-    main {
+    body {
         display: flex;
     }
 
