@@ -1,3 +1,7 @@
+html {
+    scroll-padding-top: 4rem;
+}
+
 body {
     background-color: #f1b963;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -18,15 +22,13 @@ li {
 padding-right: 10px;
 }
 
-article {
-max-width: 65%;
-}
-
 .main-para h1, h3{
     padding-left: 15px;
+    max-width: 65%;
 }
 .main-para h3 {
     margin-top: -10px;
+    max-width: 65%;
 }
 
 .picture {
@@ -85,7 +87,7 @@ td:nth-child(odd of .empty) {
 
 #page-nav li a{
     display:block;
-    color: #f8f398;
+    color: #f1b963;
     text-align: center;
     padding: 15px;
     text-decoration: none;
@@ -96,7 +98,7 @@ td:nth-child(odd of .empty) {
 }
 
 #page-nav h2{
-    color: #f8f398;
+    color: #f1b963;
     margin-top: 8px;
     margin-bottom: 8px;
     margin-left: 21px;
@@ -105,7 +107,7 @@ td:nth-child(odd of .empty) {
 
 footer {
     display:block;
-    color: #f8f398;
+    color: #f1b963;
     text-align: left;
     padding: 6px;
     margin: -8px;
@@ -132,7 +134,8 @@ footer p {
 }
 
 .sidenav-index {
-    color: #f8f398;
+    color: #f1b963;
+    padding-left: 20px;
     text-align: center;
     text-decoration: none;
     font-size: 15px;
@@ -145,7 +148,7 @@ footer p {
     text-decoration: none;
     font-size: 15px;
     margin: auto -9px;
-    color: #f8f398;
+    color: #f1b963;
     display: block;
 }
   
