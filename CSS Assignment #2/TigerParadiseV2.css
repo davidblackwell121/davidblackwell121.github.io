@@ -5,7 +5,7 @@ html {
 body {
     background-color: #f1b963;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 12pt;
+    font-size: 12pt; /* sets the font size of everything within the body */
 }
 
 ul {

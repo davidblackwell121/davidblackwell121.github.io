@@ -21,10 +21,11 @@
       </ul>
     </nav>
   </header>
+
   <main>
     <div class="sidenav"> <!-- Side navigation -->
-      <ul>
-        <li class="sidenav-index"><h3>Index</h3></li>
+      <ul> <!--list tag, all list items below are displayed inline-block (horizontally instead of vertical, and no underline)-->
+        <li class="sidenav-index"><h3>Index</h3></li> <!-- li with it's own class to be modified seperately from the other li -->
         <li><a href ="#">Top of Page</a></li> <!--Line item hyperlink for top of the page using ID-->
         <li><a href ="#Bengal">Bengal Tiger</a></li> <!--Line item hyperlink for Bengal section using ID-->
         <li><a href ="#Siberian">Siberian Tiger</a></li> <!--Line item hyperlink for Siberian section using ID-->
@@ -37,7 +38,7 @@
     </div>
     
     <br> <!--Line Break (Creates extra gap between elements)-->
-    <article class="main-para">
+    <article class="main-para"> <!-- main article with a class -->
       <h1>Introduction</h1>
       <h3>Tigers are some of the most majestic (and largest!) big cats found around the world, often seen as the most beautiful big cat, the tiger is
       also one of the most endangered cats in the wild, with some subspecies of tiger already being completely killed off by human poaching
@@ -45,11 +46,13 @@
       and a table of general information for the different tigers!
       </h3>
     </article>
-    <div class="spacing"></div>
-    <div class="tiger-articles">
+
+    <div class="spacing"></div> <!-- div with css that adds padding space for class "spacing" -->
+    <div class="tiger-articles"> <!-- div that encapsulates all tiger articles and gives them class "tiger-articles" -->
       <article>
         <img class="picture" src="BengalTiger.jpg" alt="Bengal Tiger Image" style="width:25%;"> <!--Bengal Image, sized to 25% of original size-->
         <h2 id="Bengal">Bengal Tigers</h2>
+        <!--Paragraph that does not extend longer than 65% of the page-->
         <p style="width:65%;">Bengal Tigers are often regarded as the largest wild cats alive, residing in humid forests in India, 
           Bangladesh, Nepal and Bhutan. Bengals have a coat yellowish to light orange, with stripes ranging from dark brown to black, the belly
           is white and the tail is orange with black rings. Although Bengals have been known to have several "mutations", such as
@@ -58,11 +61,11 @@
           population numbers-wise and the population is considered decreasing at the moment.
         </p>
       </article>
-      <div class="spacing"></div>
+      <div class="spacing"></div> <!-- div with css that adds padding space for class "spacing" -->
       <article>
         <img class="picture" src="SiberianTiger.jpg" alt="Siberian Tiger Image" style="width:25%;"> <!--Siberian Image, sized to 25% of original size-->
         <h2 id="Siberian">Siberian Tigers</h2>
-        <!--Paragraph that tabs after reaching 60% of the page width-->
+        <!--Paragraph that does not extend longer than 65% of the page-->
         <p style="width:65%;">Siberian Tigers are native to the Russian far east, Northeast China, and possibly North Korea. The Siberian is
           the only Tiger that lives in a snowy habitat, and is genetically close to the now-extinct Caspian Tiger. Siberian Tigers are on average the
           second largest of the subspecies, however some males have been known to grow to a size of 675 lbs. Their coats are a rusty reddish color, with
@@ -70,33 +73,34 @@
           endangered and have a population of around 400 or more in the wild with stable numbers.
         </p>
       </article>
-      <div class="spacing"></div>
+      <div class="spacing"></div> <!-- div with css that adds padding space for class "spacing" -->
       <article>
         <img class="picture" src="SumatranTiger.jpg" alt="Sumatran Tiger Image" style="width:25%;"> <!--Sumatran Image, sized to 25% of original size-->
         <h2 id="Sumatran">Sumatran Tigers</h2>
-        <!--Paragraph that tabs after reaching 60% of the page width-->
+        <!--Paragraph that does not extend longer than 65% of the page-->
         <p style="width:65%;">Sumatran Tigers are found fragmented across Sumatra, an island in western Indonesia, and are considered some of the smallest Tigers 
           in terms of both height and weight. Although all tigers possess a strong ability to swim and enjoy swimming, Sumatran Tigers are considered the best swimmers
           alongside the Bengal due to adaptations to their enviroment. They live mainly within the rainforests of Sumatra and have a population of roughly
           400-600 in the wild, considered critically endangered with a decreasing population similar to the Indochinese and Malayan Tigers.
         </p>
       </article>
-      <div class="spacing"></div>
+      <div class="spacing"></div> <!-- div with css that adds padding space for class "spacing" -->
       <article>
         <img class="picture" src="IndochineseTiger.jpg" alt="Indochinese Tiger Image" style="width:25%;"> <!--Indochinese Image, sized to 25% of original size-->
         <h2 id="Indochinese">Indochinese Tigers</h2>
-        <!--Paragraph that tabs after reaching 60% of the page width-->
+        <!--Paragraph that does not extend longer than 65% of the page-->
         <p style="width:65%;">Indochinese Tigers are native to Southeast Asia, specifically within Myanmar and Thailand, and possibly a very small numbers
           withing Vietnam. They live within tropical forests and hover around a population of 250, putting them at critically endangered status with a
-          decreasing population. The Indochinese Tigers colouration is darker, with more rather short and narrow stripes. They are very good at utilizing
-          camouflage, helping them with hunting their prey.
+          decreasing population. This is mainly due to poaching where their pelts and bones/claws/teeth are sold illegally, as like most other tigers they
+          are considered the apex predator of their habitats and have little to no threats besides humans. The Indochinese Tigers colouration is darker, 
+          with more rather short and narrow stripes. They are very good at utilizing camouflage, helping them with hunting their prey.
         </p>
       </article>
-      <div class="spacing"></div>
+      <div class="spacing"></div> <!-- div with css that adds padding space for class "spacing" -->
       <article>
         <img class="picture" src="MalayanTiger.jpg" alt="Malayan Tiger Image" style="width:25%;"> <!--Malayan Image, sized to 25% of original size-->
         <h2 id="Malayan">Malayan Tigers</h2>
-        <!--Paragraph that tabs after reaching 60% of the page width-->
+        <!--Paragraph that does not extend longer than 65% of the page-->
         <p style="width:65%;">Malayan Tigers are native to the southern and central parts of the Malayasian Peninsula, and outside of the South China
           Tiger, is the smallest in numbers sitting at only 200 left in the wild, with an estimated 80 to 120 of those being mature adults. They are also Critically
           endangered with a steady decline in population due to development projects and agriculture, primarily involving palm oil production. There aren't
@@ -104,11 +108,11 @@
           tigers, and on the lighter end in terms of weight.
         </p>
       </article>
-      <div class="spacing"></div>
+      <div class="spacing"></div> <!-- div with css that adds padding space for class "spacing" -->
       <article>
         <img class="picture" src="SouthChinaTiger.jpg" alt="South China Tiger Image" style="width:25%;"> <!--South China Image, sized to 25% of original size-->
         <h2 id="SouthChina">South China Tigers</h2>
-        <!--Paragraph that tabs after reaching 60% of the page width-->
+        <!--Paragraph that does not extend longer than 65% of the page-->
         <p style="width:65%;">South China Tigers were native to Southern China, however they are currently listed as Critically Endangered or even possibly
           extinct within the wild as the last confirmed sighting within the wild was back in the 1980's. Since the late 1990's continued survival for any potential
           survivors was considered extremely unlikely due to numerous amounts of factors such as prey density, widespread habitat degradation, and other
@@ -118,17 +122,18 @@
         </p>
       </article>
     </div>
-    <div class="spacing"></div>
+
+    <div class="spacing"></div> <!-- div with css that adds padding space for class "spacing"-->
     <br> <!--Line Break (Creates extra gap between elements)-->
     <br> <!--Line Break (Creates extra gap between elements)-->
     <table>
         <caption>
-          <br>
+          <br> <!--Line Break (Creates extra gap between elements)-->
           <h3 class="table-caption">Tiger Information</h3> <!--Caption that sits above table-->  
         </caption>
         <thead id="Table"> <!--Start of table element, with id=Table-->
           <tr>
-            <td class="empty">&nbsp;</td> <!--Creates an empty cell in the top left of the table-->
+            <td class="empty">&nbsp;</td> <!--Creates an empty cell in the top left of the table, with class "empty" to be modified in CSS-->
             <!--Table headers (columns)-->
             <th>Bengal&nbsp;&nbsp;</th>
             <th>Siberian&nbsp;&nbsp;</th>
@@ -140,7 +145,7 @@
         </thead>
         
         <tbody>
-          <tr class="odd"> <!--Creates a row with id weight-->
+          <tr class="odd"> <!--Creates a row with class "odd"-->
             <!--Row cells-->
             <th>Weight (lbs)(Adult)</th>
             <td>440-570 (Male) 240-400 (Female)</td>
@@ -150,7 +155,7 @@
             <td>220-308 (Male) 165-245 (Female)</td>
             <td>287-386 (Male) 220-254 (Female)</td>
           </tr>
-          <tr class="even"> <!--Creates a row with id height-->
+          <tr class="even"> <!--Creates a row with class "even"-->
             <!--Row cells-->
             <th>Height (cm)(Shoulders)</th>
             <td>90-110</td>
@@ -160,7 +165,7 @@
             <td>~24-45</td>
             <td>~80-95</td>
           </tr>
-          <tr class="odd"> <!--Creates a row with id habitat-->
+          <tr class="odd"> <!--Creates a row with class "odd"-->
             <!--Row cells-->
             <th>Habitat</th>
             <td>Humid Forests</td>
@@ -170,7 +175,7 @@
             <td>Malaysian Forests</td>
             <td>Temperate Forests</td>
           </tr>
-          <tr class="even"> <!--Creates a row with id population-->
+          <tr class="even"> <!--Creates a row with class "even"-->
             <!--Row cells-->
             <th>Population (Within Wild)</th>
             <td>~2603-3346</td>
@@ -180,7 +185,7 @@
             <td>~200</td>
             <td>~0 (100 in captivity)</td>
           </tr>
-          <tr class="odd"> <!--Creates a row with id status-->
+          <tr class="odd"> <!--Creates a row with class "odd"-->
             <!--Row cells-->
             <th>Status</th>
             <td>Endangered - Pop. Decreasing</td>
@@ -190,7 +195,7 @@
             <td>Critically Endangered - Pop. Decreasing</td>
             <td>Critically Endangered / Extinct In Wild</td>
           </tr>
-          <tr class="even"> <!--Creates a row with id fact-->
+          <tr class="even"> <!--Creates a row with class "even"-->
             <!--Row cells-->
             <th>Fact</th>
             <td>White Bengals (albino) are a rare phenomenon</td>
@@ -203,13 +208,13 @@
         </tbody>
       </table> <!--End of table element-->
       <br> <!--Line Break (Creates extra gap between elements)-->
-      <hr> <!--Horizontal line spanning the page-->
-      <!--h5 text with white-space style to move some text to the next line without a break element-->
+      <hr> <!--Horizontal line spanning the page just above the footer-->
   
   <footer>
     <p>All information found on respective Tigers Wiki Page(s)</p>
     <p>Copyright 2024 &#169; David Blackwell Webpage</p> <!--&#169 creates copyright symbol-->
   </footer>
+
   </main>
 </body>
 
