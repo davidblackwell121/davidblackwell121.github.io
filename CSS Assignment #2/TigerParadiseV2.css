@@ -123,6 +123,10 @@ margin-left: -5px;
     padding-top: 50px;
 }
 
+.table-caption {
+    margin-bottom: 4px;
+}
+
 table {
     table-layout: fixed;
     margin-left: auto;
