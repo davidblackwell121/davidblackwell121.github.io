@@ -53,7 +53,7 @@ padding-right: 10px;
 
 .sidenav {
     height: 100%;
-    width: 160px; /* Set the width of the sidebar */
+    width: 165px; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
@@ -63,16 +63,21 @@ padding-right: 10px;
     list-style-type: none;
 }
 
+.sidenav ul {
+    margin: -9px;
+}
+
 .sidenav-index {
     color: #f1b963;
-    padding-left: 20px;
+    padding-top: 7px;
+    padding-left: 28px;
     text-align: center;
     text-decoration: none;
     font-size: 15px;
 }
     
 .sidenav a {
-    padding: 5px 8px 5px 16px;
+    padding: 5px 7px 5px 16px;
     text-align: center;
     text-decoration: none;
     font-size: 15px;
@@ -114,7 +119,6 @@ padding-right: 10px;
 border: 3px solid black;
 float: left;
 margin-right: 8px;
-margin-bottom: 5px;
 margin-top: 22px;
 margin-left: -5px;
 }
@@ -179,12 +183,16 @@ footer p {
     text-align: center;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1200px) {
     body {
         display: flex;
     }
 
     .sidenav {
         display: none;
+    }
+
+    #page-nav li a{
+        text-align: left;
     }
 }
