@@ -107,18 +107,18 @@ padding-right: 10px;
     background-color: #e4a84d;
 }
 
-.tiger-articles {
+.tiger-articles { /* properties for each of the tiger article sections using flex boxes */
     display: flex;
     align-items: flex-start;
     justify-content: center;
     margin-left: 20px;
     margin-bottom: 20px;
-    flex-direction: column;
+    flex-direction: column; /* organizes the flex boxes up and down instead of left to right */
 }
 
-.picture {
+.picture { /* properties for the tiger images/pictures */
 border: 3px solid black;
-float: left;
+float: left; /* float: left used to have text float or wrap around the pictures */
 margin-right: 8px;
 margin-top: 22px;
 margin-left: -5px;
@@ -132,7 +132,7 @@ margin-left: -5px;
     margin-bottom: 4px;
 }
 
-table {
+table { /* properties to create the table layout and size, with a border */
     table-layout: fixed;
     margin-left: auto;
     margin-right: auto;
@@ -140,31 +140,31 @@ table {
     border: 2px solid black;
 }
 
-thead {
+thead { /* table properties */
     background-color: rgb(184, 90, 56);
     text-align: left;
 }
 
-th {
+th { /* table properties */
     background-color: rgb(184, 90, 56);
     text-align: left;
     border: 1px solid black;
 }
 
-td {
+td { /* table properties */
     text-align: center;
     border: 1px solid black;
 }
 
-tr:nth-child(2n+1) {
+tr:nth-child(2n+1) { /* uses nth-child to set the background color to orange for every odd table cell */
     background-color: orange;
 }
 
-tr:nth-child(2n) {
+tr:nth-child(2n) { /* uses nth-child to set the background color to orangered for every even table cell */
     background-color: orangered;
 }
 
-td:nth-child(odd of .empty) {
+td:nth-child(odd of .empty) { /* special nth-child to set the background color of the single empty cell in the top left classified as "empty" */
     background-color: rgb(184, 90, 56);
 }
 
