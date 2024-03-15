@@ -1,5 +1,5 @@
 html {
-    scroll-padding-top: 4rem;
+    scroll-padding-top: 4rem; /* helps offset view when clicking page links to compensate for the sticky navbar*/
 }
 
 body {
@@ -91,7 +91,14 @@ padding-right: 10px;
 }
 .main-para h3 {
     margin-top: -10px;
+    margin-left: 15px;
+    padding: 20px;
     max-width: 65%;
+    column-width: 400px;
+    column-gap: 30px;
+    column-rule: 2px dashed black;
+    border: 2px solid black;
+    background-color: #e4a84d;
 }
 
 .tiger-articles {
